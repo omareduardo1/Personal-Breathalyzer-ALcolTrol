@@ -21,7 +21,4 @@ What we used:
 • 1 Buzzer 
 • 1 LCD 16x2 Display with potentiometer 
 
-The App Side
-While the main fun happens in the hardware, we also designed a small Android app using MIT App Inventor.
-It connects via Bluetooth, reads the data in real time, and shows personalized messages based on your BAC.
 
