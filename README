@@ -1,0 +1,27 @@
+ALcolTrol is a creative take on a serious issue: alcohol consumption and its potential consequences, especially when mixed with driving.
+Born as a final project for a Social Robotics course, this device combines electronics, coding, and a bit of irony to raise awareness in a playful, interactive way.
+At its core, ALcolTrol is a personal breathalyzer that detects alcohol concentration in your breath using an MQ-3 gas sensor, processes the data through Arduino UNO, and gives immediate feedback — visually, audibly, and even wirelessly.
+We wanted something that could be used with friends at a party just for fun, but also something that could spark a moment of self-reflection. And that’s where ALcolTrol comes in.
+
+How it works:
+When you breathe near the sensor, ALcolTrol:
+	1.	Measures the ethanol concentration in the air (your breath)
+	2.	Calculates a rough Blood Alcohol Content (BAC)
+	3.	Shows the result on an LCD display
+	4.	Lights up one of four LEDs to indicate your level:
+🔵 Normal — 🟡 Tipsy — 🔴 Drunk — 🔴 Wasted
+	5.	Plays different tones with a buzzer
+	6.	Sends all the data via Bluetooth to a connected Android device
+
+What we used:
+• Arduino UNO 
+• MQ-3 Alcohol Sensor 
+• HC-05 Bluetooth Module 
+• 4 LEDs + resistors (220Ω) 
+• 1 Buzzer 
+• 1 LCD 16x2 Display with potentiometer 
+
+The App Side
+While the main fun happens in the hardware, we also designed a small Android app using MIT App Inventor.
+It connects via Bluetooth, reads the data in real time, and shows personalized messages based on your BAC.
+
